@@ -251,7 +251,7 @@ const ChatWindow = () => {
       }
     }
   };
-  const userCost = useAppSelector(selectCostByUserId);
+  // const userCost = useAppSelector(selectCostByUserId);
   // const allowSend = Number(userCost.totalCost) < 2;
   const allowSend = true;
   return (
